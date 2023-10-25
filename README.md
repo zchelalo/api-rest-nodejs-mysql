@@ -12,15 +12,6 @@ Despues de ello asegurese de estar dentro de la carpeta del proyecto y ejecute e
 npm i
 ```    
   
-Una vez hecho esto puede probar la API ejecutando:  
-```bash  
-node src/index.js
-```  
-  
-En caso de que quiera hacer un cambio y este se refleje automaticamente en el servidor deberá ejecutar el siguiente comando en lugar del anterior:  
-```bash  
-npm run dev  
-```  
 El comando anterior ejecutará el script asignado en el "package.json" el cual se llama "dev" el cual esta utilizando la librería de desarrollo nodemon.  
   
 Con los requerimientos instalados deberá crear una base de datos en MySQL, la estructura que tendrá la base de datos ya esta creada en la carpeta "db" del proyecto, solo importe en su gestor de base de datos MySQL el archivo "database.sql" para crearla.  
@@ -34,4 +25,13 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=password
 DB_DATABASE=companydb
-``` 
+```  
+Una vez hecho esto puede probar la API ejecutando:  
+```bash  
+node src/index.js
+```  
+  
+En caso de que quiera hacer un cambio y este se refleje automaticamente en el servidor deberá ejecutar el siguiente comando en lugar del anterior:  
+```bash  
+npm run dev  
+```  
